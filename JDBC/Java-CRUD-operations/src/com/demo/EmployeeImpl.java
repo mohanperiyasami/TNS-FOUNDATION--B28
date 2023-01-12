@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class EmployeeImpl implements EmployeeDAO {
-	String username ="sa";
-	String password="Bharat51";
-	String url = "jdbc:sqlserver://localhost\\NIKITA\\SQLEXPRESS;databaseName=Demo;integratedSecurity=true";
+	String username ="root";
+	String password="mohan@12345";
+	String url = "jdbc:mysql://localhost:3306/jdbcdemo";
 	Employee e = new Employee();
 
 	@Override
